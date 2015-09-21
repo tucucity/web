@@ -2,8 +2,8 @@
 //Config -----
 $_config = array(
     //Host Configuration
-    'PROYECTO'=>'FrameworkBase!',
-    'HOME'=>'http://localhost/frameworkbase/',
+    'PROYECTO'=>'TucuCity',
+    'HOME'=>'http://localhost/tucucity/',
     //Database Configuration
     'DB_HOST'=>'javiercani.net',
     'DB_USER'=>'javierca_luis',

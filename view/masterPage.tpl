@@ -13,7 +13,6 @@
       <link rel="icon" href="{IMG}favicon.png">
     <!-- Bootstrap -->
     <link href="{CSS}bootstrap.css" rel="stylesheet">
-    <link href="{CSS}bootstrap-theme.css" rel="stylesheet">
     <link href="{CSS}font-awesome.min.css" rel="stylesheet">
     <link href="{CSS}default.css" rel="stylesheet">
     <link href="{CSS}simple-sidebar.css" rel="stylesheet">
@@ -26,15 +25,190 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <script src="{JS}vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="{JS}vendor/modernizr-2.8.3-respond-1.4.2.min"></script>
   </head>
   <body>
 
+  <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-header">
+            <div class="container tucucity-sinPadd">
+                <nav class="navbar navbar-inverse tucucity-sinMargin">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="{HOME}" style="padding-top: 6px;"><img src="{IMG}logo.png"></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+  </div>
 
 
-    <div class="container-fluid">
       {view}
-    </div>
+
+
+  <footer>
+      <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer1">
+          <div class="container tucucity-sinPadd">
+              <div class="row tucucity-sinMargin">
+                  <div class="col-sm-2">
+
+                  </div>
+                  <div class="col-sm-2">
+                      <a>
+                          <table>
+                              <tr>
+                                  <td>
+                                      <span>
+                                          <i class="fa fa-users"></i>
+                                      </span>
+                                  </td>
+                                  <td>
+                                      Quienes
+                                      <br>
+                                      Somos
+                                  </td>
+                              </tr>
+                          </table>
+                      </a>
+                  </div>
+                  <div class="col-sm-2">
+                      <a>
+                          <table>
+                              <tr>
+                                  <td>
+                                      <span>
+                                          <i class="fa fa-question"></i>
+                                      </span>
+                                  </td>
+                                  <td>
+                                      Preguntas
+                                      <br>
+                                      Frecuentes
+                                  </td>
+                              </tr>
+                          </table>
+                      </a>
+                  </div>
+                  <div class="col-sm-2">
+                      <a>
+                          <table>
+                              <tr>
+                                  <td>
+                                      <span>
+                                          <i class="fa fa-envelope"></i>
+                                      </span>
+                                  </td>
+                                  <td>
+                                      Contectenos
+                                  </td>
+                              </tr>
+                          </table>
+                      </a>
+                  </div>
+                  <div class="col-sm-2">
+                      <a>
+                          <table>
+                              <tr>
+                                  <td>
+                                      <span>
+                                          <i class="fa fa-exclamation"></i>
+                                      </span>
+                                  </td>
+                                  <td>
+                                      Publicite en
+                                      <br>
+                                      TucuCity
+                                  </td>
+                              </tr>
+                          </table>
+                      </a>
+                  </div>
+                  <div class="col-sm-2">
+
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer2">
+          <div class="container tucucity-sinPadd">
+              <div class="row tucucity-sinMargin">
+                  <div class="row tucucity-sinMargin">
+                      <div class="col-sm-3">
+                          <ul>
+                              <li>
+                                  <b>Empresa</b>
+                              </li>
+                              <li>
+                                  <a>Quienes Somos</a>
+                              </li>
+                              <li>
+                                  <a>Preguntas Frecuentes</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-3">
+                          <ul>
+                              <li>
+                                  <b>Términos y Privacidad</b>
+                              </li>
+                              <li>
+                                  <a>Términos y condiciones</a>
+                              </li>
+                              <li>
+                                  <a>Privacidad</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-3">
+                          <ul>
+                              <li>
+                                  <b>Contacto</b>
+                              </li>
+                              <li>
+                                  <a>Contacto</a>
+                              </li>
+                              <li>
+                                  <a>Publicite en TucuCity</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-3">
+                          <ul>
+                              <li>
+                                  <a><i class="fa fa-facebook-square"></i></a>
+                                  <a><i class="fa fa-twitter-square"></i></a>
+                                  <a><i class="fa fa-pinterest-square"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer3">
+          <div class="container tucucity-sinPadd">
+              <div class="row tucucity-sinMargin">
+                  Todos los derechos reservados 2015
+              </div>
+          </div>
+      </div>
+  </footer>
 
 
 
@@ -42,7 +216,7 @@
     <script src="{JS}bootstrap.min"></script>
     <script src="{JS}jquery.sequence-min"></script>
     <script src="{JS}angular.min"></script>
-    <script src="{JS}plugins.js"></script>
+    <script src="{JS}plugins"></script>
 
     <script src="{JS}default"></script>
     <!-- SimpleJS -->

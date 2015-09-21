@@ -3,7 +3,7 @@ function include_all($dir){
 	if (is_dir($dir)) {
 	    if ($dh = opendir($dir)) {
 	        while (($file = readdir($dh)) !== false) {
-	            if ($file != "." && $file != ".." && $file != "index.html" && $file!=".htaccess" && $file!="class.tpl.php" && $file!="classJS.tpl.js" && $file!="viewNew.tpl.tpl" && $file!="viewList.tpl.tpl" && $file!="viewMod.tpl.tpl" && $file!="viewDel.tpl.tpl") {
+	            if ($file != "." && $file != ".." && $file != "index.html" && $file!=".htaccess") {
 	                include_once($dir.$file);
 	            }   
 	    	}

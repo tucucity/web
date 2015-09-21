@@ -1,1 +1,123 @@
-/*- --------------- CSS SPHP -------------------------- */
+/*-------------------------- Retoques Bootstrap */
+.navbar-inverse
+{
+    border-color: #292C31;
+    background-color: #292C31;
+}
+
+/*- --------------- CSS TucuCity -------------------------- */
+
+.tucucity-fondoBlanco
+{
+    background-color: #f5f5f5;
+}
+
+.tucucity-fondoRojo
+{
+    background-color: #D71923;
+}
+
+.tucucity-padd40
+{
+    padding: 40px;
+}
+
+.tucucity-sinMargin
+{
+    margin: 0px;
+}
+
+.tucucity-sinPadd
+{
+    padding: 0px;
+}
+
+/* ---------------- CSS TucuCity Header and footer ----------*/
+
+.tucucity-header
+{
+    background-color: #292C31;
+}
+
+footer
+{
+    text-align: center;
+    color: #9d9d9d;
+}
+/* ---------- footer 1 ------- */
+.tucucity-footer1
+{
+    padding: 20px;
+    background-color: #615C59;
+}
+.tucucity-footer1 div div div a
+{
+    color: #908A8A;
+    cursor: pointer;
+    text-decoration:none;
+}
+.tucucity-footer1 div div div a table tr td
+{
+    vertical-align:middle;
+}
+.tucucity-footer1 div div div a table tr td span
+{
+    padding: 20px;
+    margin: 5px;
+    display: inline-table;
+    width: 74px;
+    height: 74px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #958F8F;
+}
+.tucucity-footer1 div div div a table tr td span i
+{
+    font-size: 30px;
+    color: #696461;
+    padding-top: 20px;
+}
+.tucucity-footer1 div div div a:hover
+{
+    color: #ffffff;
+}
+.tucucity-footer1 div div div a:hover table tr td span i
+{
+    color: #ffffff;
+}
+
+/* ---------- footer 2 ------- */
+.tucucity-footer2
+{
+    padding: 10px;
+    background-color: #403836;
+    text-align: left;
+}
+.tucucity-footer2 div div div ul li
+{
+    list-style: none;
+}
+
+.tucucity-footer2 div div div ul li b
+{
+    color: #ffffff;
+}
+
+.tucucity-footer2 div div div ul li a
+{
+    text-decoration:none;
+    cursor: pointer;
+    color: #9d9d9d;
+}
+.tucucity-footer2 div div div ul li a:hover
+{
+    color: #ffffff;
+}
+.tucucity-footer2 div div div ul li a i
+{
+    font-size: 30px;
+}
+/* ---------- footer 3 ------- */
+.tucucity-footer3
+{
+    background-color: #2E2D29;
+}
