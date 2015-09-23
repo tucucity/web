@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-<html lang="es" ng-app="App">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
 
   <script src="{JS}vendor/modernizr-2.8.3-respond-1.4.2.min"></script>
   </head>
-  <body>
+  <body  ng-app="App">
 
   <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-header">
             <div class="container tucucity-sinPadd">
@@ -154,20 +154,20 @@
                                   <b>Empresa</b>
                               </li>
                               <li>
-                                  <a>Quienes Somos</a>
+                                  <a>Quiénes Somos</a>
                               </li>
                               <li>
                                   <a>Preguntas Frecuentes</a>
                               </li>
                           </ul>
                       </div>
-                      <div class="col-sm-3">
+                      <div class="col-sm-4">
                           <ul>
                               <li>
-                                  <b>Términos y Privacidad</b>
+                                  <b>Términos, Condiciones y Privacidad</b>
                               </li>
                               <li>
-                                  <a>Términos y condiciones</a>
+                                  <a>Términos y Condiciones</a>
                               </li>
                               <li>
                                   <a>Privacidad</a>
@@ -180,14 +180,14 @@
                                   <b>Contacto</b>
                               </li>
                               <li>
-                                  <a>Contacto</a>
+                                  <a>Consultas</a>
                               </li>
                               <li>
                                   <a>Publicite en TucuCity</a>
                               </li>
                           </ul>
                       </div>
-                      <div class="col-sm-3">
+                      <div class="col-sm-2">
                           <ul>
                               <li>
                                   <a><i class="fa fa-facebook-square"></i></a>
@@ -198,9 +198,9 @@
                       </div>
                   </div>
               </div>
-              </div>
           </div>
       </div>
+
       <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer3">
           <div class="container tucucity-sinPadd">
               <div class="row tucucity-sinMargin">

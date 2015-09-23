@@ -17,6 +17,12 @@
     background-color: #D71923;
 }
 
+.tucucity-fondoWomenShopping
+{
+    bg-image: "women-Shopping.jpg";
+    filter: blur(6px);
+}
+
 .tucucity-padd40
 {
     padding: 40px;
