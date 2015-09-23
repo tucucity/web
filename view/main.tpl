@@ -1,10 +1,10 @@
-<div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
-    <div class="container tucucity-fondoWomenShopping">
+<div class="container-fluid tucucity-sinpadd tucucity-fondoWomenShopping">
+    <div class="container">
         <div class="row">
             <div class="col-sm-3">
 
             </div>
-            <div class="col-sm-6 tucucity-padd40">
+            <div class="col-sm-6 tucucity-buscador">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="¿Qué estas buscando?">
                       <span class="input-group-btn">
@@ -18,9 +18,8 @@
             </div>
         </div><!-- /.row -->
     </div>
-    <div class="container tucucity-fondoRojo tucucity-sinPadd">
-
-    </div>
+</div>
+<div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
     <div class="row tucucity-fondoBlanco tucucity-sinPadd">
         <div class="col-sm-2"></div>
         <div class="col-sm-2">

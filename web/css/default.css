@@ -19,13 +19,17 @@
 
 .tucucity-fondoWomenShopping
 {
-    bg-image: "women-Shopping.jpg";
-    filter: blur(6px);
+    background-image: url("../images/women-Shopping.jpg");
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
-.tucucity-padd40
+.tucucity-buscador
 {
-    padding: 40px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .tucucity-sinMargin
@@ -126,4 +130,15 @@ footer
 .tucucity-footer3
 {
     background-color: #2E2D29;
+}
+
+/* ---------------------------------------------------- MEDIA QUERIES ---------------------------------- */
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px)
+{
+    .tucucity-buscador
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
