@@ -19,17 +19,27 @@
 
 .tucucity-fondoWomenShopping
 {
-    background-image: url("../images/women-Shopping.jpg");
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    background-image: url("../images/women_shopping.jpg");
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
 }
 
 .tucucity-buscador
 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    position: absolute;
+    top: 150px;
 }
 
 .tucucity-sinMargin
@@ -47,6 +57,7 @@
 .tucucity-header
 {
     background-color: #292C31;
+    z-index: 10;
 }
 
 footer
@@ -136,9 +147,27 @@ footer
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px)
 {
-    .tucucity-buscador
+    .tucucity-fondoWomenShopping
     {
         padding-top: 70px;
         padding-bottom: 70px;
+
+        background-image: url("../images/women-shoppingORI.jpg");
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
+
+    }
+    .tucucity-buscador
+    {
+        position: absolute;
+        top: 70px;
     }
 }

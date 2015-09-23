@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{PROYECTO}</title>
-      <link rel="icon" href="{IMG}favicon.png">
+    <link rel="icon" href="{IMG}favicon.png">
     <!-- Bootstrap -->
     <link href="{CSS}bootstrap.css" rel="stylesheet">
     <link href="{CSS}font-awesome.min.css" rel="stylesheet">

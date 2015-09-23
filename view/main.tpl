@@ -1,24 +1,30 @@
-<div class="container-fluid tucucity-sinpadd tucucity-fondoWomenShopping">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
+<div style="position: relative">
+    <div class="container-fluid tucucity-sinpadd tucucity-fondoWomenShopping">
 
-            </div>
-            <div class="col-sm-6 tucucity-buscador">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="¿Qué estas buscando?">
+    </div>
+    <div class="container-fluid tucucity-sinpadd tucucity-buscador">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="¿Qué estas buscando?">
                       <span class="input-group-btn">
                         <button class="btn btn-danger" type="button"><i class="fa fa-search"></i></button>
                       </span>
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
 
-            <div class="col-sm-3">
+                <div class="col-sm-3">
 
-            </div>
-        </div><!-- /.row -->
+                </div>
+            </div><!-- /.row -->
+        </div>
     </div>
 </div>
+
 <div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
     <div class="row tucucity-fondoBlanco tucucity-sinPadd">
         <div class="col-sm-2"></div>
