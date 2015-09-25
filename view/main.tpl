@@ -1,5 +1,5 @@
 <div style="position: relative;">
-    <div class="container-fluid tucucity-sinpadd tucucity-fondoWomenShopping">
+    <div class="container-fluid tucucity-sinpadd tucucity-fondoWomenShopping tucucity-padd-fondoWomenShopping">
 
     </div>
     <div class="container-fluid tucucity-buscador">

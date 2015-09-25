@@ -19,9 +19,6 @@
 
 .tucucity-fondoWomenShopping
 {
-    padding-top: 150px;
-    padding-bottom: 150px;
-
     background-image: url("../images/women_shopping.jpg");
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -34,6 +31,12 @@
     -ms-filter: blur(2px);
     filter: blur(2px);
 
+}
+
+.tucucity-padd-fondoWomenShopping
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .tucucity-buscador
@@ -153,22 +156,10 @@ footer
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px)
 {
-    .tucucity-fondoWomenShopping
+    .tucucity-padd-fondoWomenShopping
     {
         padding-top: 70px;
         padding-bottom: 70px;
-
-        background-image: url("../images/women_shopping.jpg");
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-
-        -webkit-filter: blur(2px);
-        -moz-filter: blur(2px);
-        -o-filter: blur(2px);
-        -ms-filter: blur(2px);
-        filter: blur(2px);
 
     }
     .tucucity-buscador
