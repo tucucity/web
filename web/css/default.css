@@ -113,6 +113,12 @@ footer
     background-color: #403836;
     text-align: left;
 }
+
+.tucucity-footer2 div div div ul li
+{
+    padding-left: 50px;
+}
+
 .tucucity-footer2 div div div ul li
 {
     list-style: none;
@@ -169,5 +175,10 @@ footer
     {
         position: absolute;
         top: 70px;
+    }
+
+    .tucucity-footer2 div div div ul li
+    {
+        padding-left: 0px;
     }
 }

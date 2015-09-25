@@ -47,9 +47,11 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Comercios</a></li>
+                                <li><a href="#">Profesionales</a></li>
+                                <li><a href="#">Paseos</a></li>
+                                <li><a href="#">Noche Tucumana</a></li>
+                                <li><a href="#">Super Ofertas</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
@@ -145,57 +147,55 @@
           </div>
       </div>
       <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer2">
-          <div class="container tucucity-sinPadd">
-              <div class="row tucucity-sinMargin">
-                  <div class="row tucucity-sinMargin">
-                      <div class="col-sm-3">
-                          <ul>
-                              <li>
-                                  <b>Empresa</b>
-                              </li>
-                              <li>
-                                  <a>Quiénes Somos</a>
-                              </li>
-                              <li>
-                                  <a>Preguntas Frecuentes</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-4">
-                          <ul>
-                              <li>
-                                  <b>Términos, Condiciones y Privacidad</b>
-                              </li>
-                              <li>
-                                  <a>Términos y Condiciones</a>
-                              </li>
-                              <li>
-                                  <a>Privacidad</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-3">
-                          <ul>
-                              <li>
-                                  <b>Contacto</b>
-                              </li>
-                              <li>
-                                  <a>Consultas</a>
-                              </li>
-                              <li>
-                                  <a>Publicite en TucuCity</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-2">
-                          <ul>
-                              <li>
-                                  <a><i class="fa fa-facebook-square"></i></a>
-                                  <a><i class="fa fa-twitter-square"></i></a>
-                                  <a><i class="fa fa-pinterest-square"></i></a>
-                              </li>
-                          </ul>
-                      </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Empresa</b>
+                          </li>
+                          <li>
+                              <a>Quiénes Somos</a>
+                          </li>
+                          <li>
+                              <a>Preguntas Frecuentes</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Contacto</b>
+                          </li>
+                          <li>
+                              <a>Consultas</a>
+                          </li>
+                          <li>
+                              <a>Publicite en TucuCity</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Términos y Privacidad</b>
+                          </li>
+                          <li>
+                              <a>Términos y Condiciones</a>
+                          </li>
+                          <li>
+                              <a>Privacidad</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <a><i class="fa fa-facebook-square"></i></a>
+                              <a><i class="fa fa-twitter-square"></i></a>
+                              <a><i class="fa fa-pinterest-square"></i></a>
+                          </li>
+                      </ul>
                   </div>
               </div>
           </div>

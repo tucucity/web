@@ -24,24 +24,26 @@
 </div>
 
 <div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
-    <div class="row tucucity-fondoBlanco tucucity-sinPadd">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-2">
-            Contexto
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">Contexto</div>
+            <div class="col-sm-3">
+                Contexto
+            </div>
+            <div class="col-sm-3">
+                LEALO PRIMERO EN CONTEXTO <br>
+                Racedo Aragon Producciones: nueva version de "La Pasion" en Tafi
+            </div>
+            <div class="col-sm-3">
+                SOLO EN CONTEXTO
+                Alperovich firma un convenio oficial con su hermano Naum: no informan el motivo ni los montos del contrato.
+            </div>
         </div>
-        <div class="col-sm-3">
-            LEALO PRIMERO EN CONTEXTO <br>
-            Racedo Aragon Producciones: nueva version de "La Pasion" en Tafi
-        </div>
-        <div class="col-sm-3">
-            SOLO EN CONTEXTO
-            Alperovich firma un convenio oficial con su hermano Naum: no informan el motivo ni los montos del contrato.
-        </div>
-        <div class="col-sm-2"></div>
     </div>
-    <div class="container-fluid tucucity-fondoRojo tucucity-sinPadd">
-        <br>
-        <br>
-        <br>
-    </div>
+
+</div>
+<div class="container-fluid tucucity-fondoBlanco tucucity-sinPadd">
+    <br>
+    <br>
+    <br>
 </div>
