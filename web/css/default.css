@@ -15,6 +15,17 @@
 .tucucity-fondoRojo
 {
     background-color: #D71923;
+    color: #ffffff;
+}
+
+.link-fondoRojo:link
+{
+    color: #ffffff;
+}
+
+.link-fondoRojo:visited
+{
+    color: #ffffff;
 }
 
 .tucucity-fondoWomenShopping

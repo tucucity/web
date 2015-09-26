@@ -11,19 +11,19 @@ class Main{
         $content = file_get_contents($feed_url);
         $x = new SimpleXmlElement($content);
 
-        $rss = "<div class='col-sm-2'></div>";
+        $rss = "";
         $cnt = 0;
         foreach($x->channel->item as $entry) {
-            if($cnt == 3 ) {
+            if($cnt == 4 ) {
                 break;
             }
             $rss.= "<div class='col-sm-3'>";
-            $rss.= "<a href='$entry->link' title='$entry->title'>" . $entry->title . "</a><br>";
+            $rss.= "<a class='link-fondoRojo' target='_blank' href='$entry->link' title='$entry->title'>" . strtoupper($entry->title) . "</a><br>";
             $rss.= "$entry->description";
             $rss.= "</div>";
             $cnt++;
         }
-        $rss .= "<div class='col-sm-1'></div>";
+        //$rss .= "<div class='col-sm-2'></div>";
 
         return $rss;
     }
