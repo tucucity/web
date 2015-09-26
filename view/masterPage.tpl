@@ -47,11 +47,9 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Comercios</a></li>
-                                <li><a href="#">Profesionales</a></li>
-                                <li><a href="#">Paseos</a></li>
-                                <li><a href="#">Noche Tucumana</a></li>
-                                <li><a href="#">Super Ofertas</a></li>
+                                <li><a href="#"><i class="fa fa-home" style="font-size: 20px"></i> Home</a></li>
+                                <li><a href="#"><i class="fa fa-university"></i> Comercios</a></li>
+                                <li><a href="#"><i class="fa fa-graduation-cap"></i> Profesionales</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
