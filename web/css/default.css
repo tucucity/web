@@ -55,6 +55,44 @@
     padding: 0px;
 }
 
+.tucucity-articulo
+{
+    padding: 10px;
+}
+
+.tucucity-articulo div
+{
+    border: 1px solid #000000;
+    padding: 0px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.tucucity-articulo div
+{
+    text-align: center;
+    padding: 4px;
+}
+
+.tucucity-articulo div h3
+{
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+.tucucity-articulo div p
+{
+    text-align: left;
+    padding: 2px;
+}
+
+.tucucity-articulo div img
+{
+    width: 150px;
+    height: 150px;
+}
+
 /* ---------------- CSS TucuCity Header and footer ----------*/
 
 .tucucity-header
