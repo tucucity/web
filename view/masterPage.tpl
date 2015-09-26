@@ -67,10 +67,10 @@
       <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer1">
           <div class="container tucucity-sinPadd">
               <div class="row tucucity-sinMargin">
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-lg-2">
 
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -88,7 +88,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -106,7 +106,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -122,7 +122,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -140,7 +140,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-lg-2">
 
                   </div>
               </div>
