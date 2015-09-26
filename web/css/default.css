@@ -19,9 +19,6 @@
 
 .tucucity-fondoWomenShopping
 {
-    padding-top: 150px;
-    padding-bottom: 150px;
-
     background-image: url("../images/women_shopping.jpg");
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -34,6 +31,12 @@
     -ms-filter: blur(2px);
     filter: blur(2px);
 
+}
+
+.tucucity-padd-fondoWomenShopping
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .tucucity-buscador
@@ -51,6 +54,56 @@
 {
     padding: 0px;
 }
+
+.tucucity-articulo
+{
+    padding: 10px;
+}
+
+.tucucity-articulo div
+{
+    border: 1px solid #000000;
+    padding: 0px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.tucucity-articulo div img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.tucucity-articulo div h3
+{
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+.tucucity-articulo div p
+{
+    text-align: left;
+    padding: 2px;
+    height: 88px;
+    margin-bottom: 0px;
+}
+
+.tucucity-articulo div div
+{
+    text-align: left;
+    height: 70px;
+    border: 0px;
+}
+
+.tucucity-articulo div a
+{
+    margin-top: 4px;
+}
+
 
 /* ---------------- CSS TucuCity Header and footer ----------*/
 
@@ -113,6 +166,12 @@ footer
     background-color: #403836;
     text-align: left;
 }
+
+.tucucity-footer2 div div div ul li
+{
+    padding-left: 50px;
+}
+
 .tucucity-footer2 div div div ul li
 {
     list-style: none;
@@ -147,27 +206,20 @@ footer
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px)
 {
-    .tucucity-fondoWomenShopping
+    .tucucity-padd-fondoWomenShopping
     {
         padding-top: 70px;
         padding-bottom: 70px;
-
-        background-image: url("../images/women_shopping.jpg");
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-
-        -webkit-filter: blur(2px);
-        -moz-filter: blur(2px);
-        -o-filter: blur(2px);
-        -ms-filter: blur(2px);
-        filter: blur(2px);
 
     }
     .tucucity-buscador
     {
         position: absolute;
         top: 70px;
+    }
+
+    .tucucity-footer2 div div div ul li
+    {
+        padding-left: 0px;
     }
 }

@@ -47,9 +47,9 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li><a href="#"><i class="fa fa-home" style="font-size: 20px"></i> Home</a></li>
+                                <li><a href="#"><i class="fa fa-university"></i> Comercios</a></li>
+                                <li><a href="#"><i class="fa fa-graduation-cap"></i> Profesionales</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
@@ -65,10 +65,10 @@
       <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer1">
           <div class="container tucucity-sinPadd">
               <div class="row tucucity-sinMargin">
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-lg-2">
 
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -86,7 +86,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -104,7 +104,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -120,7 +120,7 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                       <a>
                           <table>
                               <tr>
@@ -138,64 +138,62 @@
                           </table>
                       </a>
                   </div>
-                  <div class="col-sm-2">
+                  <div class="col-xs-12 col-lg-2">
 
                   </div>
               </div>
           </div>
       </div>
       <div class="container-fluid tucucity-sinMargin tucucity-sinPadd tucucity-footer2">
-          <div class="container tucucity-sinPadd">
-              <div class="row tucucity-sinMargin">
-                  <div class="row tucucity-sinMargin">
-                      <div class="col-sm-3">
-                          <ul>
-                              <li>
-                                  <b>Empresa</b>
-                              </li>
-                              <li>
-                                  <a>Quiénes Somos</a>
-                              </li>
-                              <li>
-                                  <a>Preguntas Frecuentes</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-4">
-                          <ul>
-                              <li>
-                                  <b>Términos, Condiciones y Privacidad</b>
-                              </li>
-                              <li>
-                                  <a>Términos y Condiciones</a>
-                              </li>
-                              <li>
-                                  <a>Privacidad</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-3">
-                          <ul>
-                              <li>
-                                  <b>Contacto</b>
-                              </li>
-                              <li>
-                                  <a>Consultas</a>
-                              </li>
-                              <li>
-                                  <a>Publicite en TucuCity</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-sm-2">
-                          <ul>
-                              <li>
-                                  <a><i class="fa fa-facebook-square"></i></a>
-                                  <a><i class="fa fa-twitter-square"></i></a>
-                                  <a><i class="fa fa-pinterest-square"></i></a>
-                              </li>
-                          </ul>
-                      </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Empresa</b>
+                          </li>
+                          <li>
+                              <a>Quiénes Somos</a>
+                          </li>
+                          <li>
+                              <a>Preguntas Frecuentes</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Contacto</b>
+                          </li>
+                          <li>
+                              <a>Consultas</a>
+                          </li>
+                          <li>
+                              <a>Publicite en TucuCity</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <b>Términos y Privacidad</b>
+                          </li>
+                          <li>
+                              <a>Términos y Condiciones</a>
+                          </li>
+                          <li>
+                              <a>Privacidad</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <ul>
+                          <li>
+                              <a><i class="fa fa-facebook-square"></i></a>
+                              <a><i class="fa fa-twitter-square"></i></a>
+                              <a><i class="fa fa-pinterest-square"></i></a>
+                          </li>
+                      </ul>
                   </div>
               </div>
           </div>
