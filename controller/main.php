@@ -3,7 +3,7 @@ class Main{
 	public static function init()
     {
         $rssnoticias = Main::getFeed("http://cdn02.ib.infobae.com/adjuntos/162/rss/Infobae.xml",4);//"http://noticias-tucuman.webnode.es/rss/novedades.xml");//"http://cdn02.am.infobae.com/adjuntos/163/rss/ahora.xml");
-        (new View())->show("main",array('rssnoticias'=>$rssnoticias));
+        (new View())->show("main","masterPage",array('rssnoticias'=>$rssnoticias));
     }
 
     public static function getFeed($feed_url,$cantidad=4) {

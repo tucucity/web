@@ -42,16 +42,24 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="{HOME}" style="padding-top: 6px;"><img src="{IMG}logo.png"></a>
+
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="{HOME}"><i class="fa fa-home" style="font-size: 20px"></i> Home</a></li>
-                                <li><a href="comercios"><i class="fa fa-university"></i> Comercios</a></li>
-                                <li><a href="profesionales"><i class="fa fa-graduation-cap"></i> Profesionales</a></li>
+                                <li><a href="#"><i class="fa fa-home" style="font-size: 20px"></i> Home</a></li>
+                                <li><a href="#"><i class="fa fa-university"></i> Comercios</a></li>
+                                <li><a href="#"><i class="fa fa-graduation-cap"></i> Profesionales</a></li>
                             </ul>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="¿Qué estas buscando?">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-danger" type="button"><i class="fa fa-search"></i></button>
+                                              </span>
+                            </div><!-- /input-group -->
                         </div><!-- /.navbar-collapse -->
+
                     </div><!-- /.container-fluid -->
                 </nav>
             </div>

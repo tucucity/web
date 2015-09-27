@@ -14,10 +14,10 @@ class View
         return $data;
     }
 
-    public function show($viewName, $data=array()){
+    public function show($viewName,$masterpage="masterpage", $data=array()){
         $data = (new View())->DataArray($data);
 
-        $template = file_get_contents("view/masterPage.tpl");
+        $template = file_get_contents("view/".$masterpage.".tpl");
         $content = file_get_contents("view/".$viewName.".tpl");
         $view = str_replace("{view}", $content, $template);
         $html = View::parse($view, $data);
