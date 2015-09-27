@@ -213,6 +213,15 @@ footer
     background-color: #2E2D29;
 }
 
+/* ----------------- Profesionales -------------------- */
+.img-profesionales-perfil
+{
+    height: 200px;
+    width: 200px;
+    border: solid #ffffff thin;
+    border-radius: 80%;
+}
+
 /* ---------------------------------------------------- MEDIA QUERIES ---------------------------------- */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px)
