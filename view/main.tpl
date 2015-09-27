@@ -132,7 +132,7 @@
                         <br>
                         <i class="fa fa-phone"></i> (381)156363695
                     </div>
-                    <a class="btn btn-danger">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
+                    <a class="btn btn-primary">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 tucucity-articulo">
@@ -149,7 +149,7 @@
                         <br>
                         <i class="fa fa-phone"></i> (381)156363695
                     </div>
-                    <a class="btn btn-danger">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
+                    <a class="btn btn-primary">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 tucucity-articulo">
@@ -166,7 +166,7 @@
                         <br>
                         <i class="fa fa-phone"></i> (381)156363695
                     </div>
-                    <a class="btn btn-danger">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
+                    <a class="btn btn-primary">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 tucucity-articulo">
@@ -183,7 +183,7 @@
                         <br>
                         <i class="fa fa-phone"></i> (381)156363695
                     </div>
-                    <a class="btn btn-danger">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
+                    <a class="btn btn-primary">Ver Detalles</a>&nbsp;<a class="btn btn-danger"><i class="fa fa-envelope-o"></i></a>
                 </div>
             </div>
 
