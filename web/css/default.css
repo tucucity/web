@@ -18,16 +18,6 @@
     color: #ffffff;
 }
 
-.link-fondoRojo:link
-{
-    color: #ffffff;
-}
-
-.link-fondoRojo:visited
-{
-    color: #ffffff;
-}
-
 .tucucity-fondoWomenShopping
 {
     background-image: url("../images/women_shopping.jpg");
@@ -113,6 +103,32 @@
 .tucucity-articulo div a
 {
     margin-top: 4px;
+}
+
+.tucucity-noticias div
+{
+    padding: 10px;
+}
+
+.tucucity-noticias a
+{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tucucity-noticias a:link
+{
+    color: #ffffff;
+}
+
+.tucucity-noticias a:visited
+{
+    color: #ffffff;
+}
+
+.tucucity-noticias p
+{
+    color: #000000;
 }
 
 

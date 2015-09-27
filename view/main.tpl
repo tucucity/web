@@ -25,7 +25,7 @@
 
 <div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
     <div class="container">
-        <div class="row">
+        <div class="row tucucity-noticias">
             {rssnoticias}
         </div>
     </div>

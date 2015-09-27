@@ -17,13 +17,12 @@ class Main{
             if($cnt == $cantidad ) {
                 break;
             }
-            $rss.= "<div class='col-xs-3 col-sm-3'>";
-            $rss.= "<a class='link-fondoRojo' target='_blank' href='$entry->link' title='$entry->title'>" . strtoupper($entry->title) . "</a><br>";
-            $rss.= "$entry->description";
+            $rss.= "<div class='col-xs-12 col-sm-6 col-md-3 col-lg-3'>";
+            $rss.= "<h5><a target='_blank' href='$entry->link' title='$entry->title'>" . strtoupper($entry->title) . "</a></h5>";
+            $rss.= "<p>$entry->description</p>";
             $rss.= "</div>";
             $cnt++;
         }
-        //$rss .= "<div class='col-sm-2'></div>";
 
         return $rss;
     }
