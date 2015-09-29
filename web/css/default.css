@@ -238,6 +238,58 @@ footer
     border-radius: 80%;
 }
 
+.letraroja
+{
+    color: #D71923;
+}
+
+.detalle
+{
+    padding-left: 30px;
+}
+
+.detallegrupo
+{
+    padding-top: 20px;
+}
+
+.grupo-fechas
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.grupo-titulo
+{
+    font-weight: bold;
+}
+
+.grupo-detalle
+{
+    font-weight: bold;
+    color: darkgray;
+}
+
+
+.detallecontainer
+{
+    margin-top: 15px;
+}
+
+.subtitulorojo
+{
+    color: #D71923;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.titulofondorojo
+{
+    background: #D71923;
+    color: #ffffff;
+    font-size: 30px
+}
+
 /* ---------------------------------------------------- MEDIA QUERIES ---------------------------------- */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px)

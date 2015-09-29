@@ -52,12 +52,12 @@
                                 <li><a href="#"><i class="fa fa-university"></i> Comercios</a></li>
                                 <li><a href="#"><i class="fa fa-graduation-cap"></i> Profesionales</a></li>
                             </ul>
-                            <div class="input-group">
+                            <!--<div class="input-group">
                                 <input type="text" class="form-control" placeholder="¿Qué estas buscando?">
-                                              <span class="input-group-btn">
-                                                <button class="btn btn-danger" type="button"><i class="fa fa-search"></i></button>
-                                              </span>
-                            </div><!-- /input-group -->
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>--><!-- /input-group -->
                         </div><!-- /.navbar-collapse -->
 
                     </div><!-- /.container-fluid -->
