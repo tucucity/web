@@ -26,6 +26,11 @@
 <div class="container-fluid tucucity-sinpadd tucucity-fondoRojo">
     <div class="container">
         <div class="row tucucity-noticias">
+            <div class='col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center'>
+                <img src="{IMG}infobae.png">
+                <br>
+                <a href="http://www.infobae.com/">NOTICIAS</a>
+            </div>
             {rssnoticias}
         </div>
     </div>
