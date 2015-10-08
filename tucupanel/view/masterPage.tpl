@@ -41,8 +41,13 @@
 <script src="{JS}jquery.sequence-min"></script>
 <script src="{JS}angular"></script>
 <script src="{JS}plugins"></script>
-<script src="{JS}app"></script>
-
+<!--<script src="{JS}app"></script>-->
+<script>
+    app = angular.module('App', []).controller('ProductosController', function($scope,$http)
+    {
+        $scope.Message="Hola Mundo";
+    });
+</script>
 <script src="{JS}default"></script>
 
 
