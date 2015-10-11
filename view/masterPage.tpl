@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="es"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es" ng-app="App"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es" ng-app="App"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="es" ng-app="App"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" ng-app="App"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +16,15 @@
     <link href="{CSS}default.css" rel="stylesheet">
     <link href="{CSS}simple-sidebar.css" rel="stylesheet">
     <link href="{CSS}sequence.css" rel="stylesheet">
+
+      <!-- js --------------------------------- -->
+      <script src="{JS}jquery"></script>
+      <script src="{JS}bootstrap.min"></script>
+      <script src="{JS}jquery.sequence-min"></script>
+      <script src="{JS}angular.min"></script>
+      <script src="{JS}plugins"></script>
+
+      <script src="{JS}default"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -207,17 +215,6 @@
           </div>
       </div>
   </footer>
-
-
-
-    <script src="{JS}jquery"></script>
-    <script src="{JS}bootstrap.min"></script>
-    <script src="{JS}jquery.sequence-min"></script>
-    <script src="{JS}angular.min"></script>
-    <script src="{JS}plugins"></script>
-
-    <script src="{JS}default"></script>
-    <!-- SimpleJS -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
