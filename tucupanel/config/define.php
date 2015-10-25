@@ -16,5 +16,4 @@ define("UPLOAD", SERVER_ROOT."/web/uploads/");
 //Crypting configuration
 define("CIFRADO", MCRYPT_RIJNDAEL_256);
 define("MODO", MCRYPT_MODE_ECB);
-
 ?>

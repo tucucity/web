@@ -21,7 +21,7 @@
       <script src="{JS}jquery"></script>
       <script src="{JS}bootstrap.min"></script>
       <script src="{JS}jquery.sequence-min"></script>
-      <script src="{JS}angular.min"></script>
+      <script src="{JS}vendor/angular.min"></script>
       <script src="{JS}plugins"></script>
 
       <script src="{JS}default"></script>

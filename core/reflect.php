@@ -1,7 +1,7 @@
 <?php 
 class Reflect
 {
-	public function createClass($tableName)
+	public function createClass($tableName,$temp=null)
     {
 		$dir = SERVER_ROOT."/model/";
 		$maquetaClass = file_get_contents(SERVER_ROOT."/core/class.tpl.php");
@@ -38,14 +38,11 @@ class Reflect
                     $PK_AutoIncremental = $atrib[$i]['Field'];
                 }
                 // -------- Seters
-                if($atrib[$i]['Extra']!='auto_increment')
-                {
                     $seters = $seters."public function set".ucwords($atrib[$i]['Field'])."($".$atrib[$i]['Field'].")
 		        {
 		            \$this->".$atrib[$i]['Field']." = $".$atrib[$i]['Field'].";
 		        }
 		        ";
-                }
                 // ------- Geters
                 $geters = $geters."public function get".ucwords($atrib[$i]['Field'])."()
 		        {
@@ -61,7 +58,7 @@ class Reflect
                 //------- Valores para Insert
                 if($atrib[$i]['Extra']!='auto_increment')
                 {
-                    if(strpos($atrib[$i]['Type'],'int') || strpos($atrib[$i]['Type'],'tinyint') || strpos($atrib[$i]['Type'],'smallint') || strpos($atrib[$i]['Type'],'mediumint') || strpos($atrib[$i]['Type'],'bigint') || strpos($atrib[$i]['Type'],'float') || strpos($atrib[$i]['Type'],'decimal'))
+                    if(strpos($atrib[$i]['Type'],'int')!== FALSE || strpos($atrib[$i]['Type'],'tinyint')!== FALSE || strpos($atrib[$i]['Type'],'smallint')!== FALSE || strpos($atrib[$i]['Type'],'mediumint')!== FALSE || strpos($atrib[$i]['Type'],'bigint')!== FALSE || strpos($atrib[$i]['Type'],'float')!== FALSE || strpos($atrib[$i]['Type'],'decimal')!== FALSE)
                     {
                         ($insertValues=="")?($insertValues = "\$this->".$atrib[$i]['Field']):($insertValues = $insertValues.",\$this->".$atrib[$i]['Field']);
                     }
@@ -75,7 +72,7 @@ class Reflect
                 //-------------- valores para UPDATE
                 if($atrib[$i]['Extra']!='auto_increment')
                 {
-                    if(strpos($atrib[$i]['Type'],'int') || strpos($atrib[$i]['Type'],'tinyint') || strpos($atrib[$i]['Type'],'smallint') || strpos($atrib[$i]['Type'],'mediumint') || strpos($atrib[$i]['Type'],'bigint') || strpos($atrib[$i]['Type'],'float') || strpos($atrib[$i]['Type'],'decimal'))
+                    if(strpos($atrib[$i]['Type'],'int')!== FALSE || strpos($atrib[$i]['Type'],'tinyint')!== FALSE || strpos($atrib[$i]['Type'],'smallint')!== FALSE || strpos($atrib[$i]['Type'],'mediumint')!== FALSE || strpos($atrib[$i]['Type'],'bigint')!== FALSE || strpos($atrib[$i]['Type'],'float')!== FALSE || strpos($atrib[$i]['Type'],'decimal')!== FALSE)
                     {
                         ($updateValues=="")?($updateValues = $atrib[$i]['Field']."=\$this->".$atrib[$i]['Field']):($updateValues = $updateValues.",".$atrib[$i]['Field']."=\$this->".$atrib[$i]['Field']);
                     }
@@ -108,6 +105,26 @@ class Reflect
             $file=fopen($dir."\\".$clase.".php","w");
             fwrite($file,$contenido);
             fclose($file);
+
+            if($temp!=null)
+            {
+                $contenido = view::parse($maquetaClass, array(
+                        "Tabla" => ucwords($clase.$temp),
+                        "tabla" => $clase,
+                        "atributos" => $defAtrib,
+                        "AtributoPK" => $PK_AutoIncremental,
+                        "seters" => $seters,
+                        "geters" => $geters,
+                        "INSERT_ATRIB" => $insertAtrib,
+                        "INSERT_VALUES" => $insertValues,
+                        "UPDATE" => $updateValues,
+                        "AttribShow" => $attribShow
+                    )
+                );
+                $file=fopen($dir."\\".$clase.$temp.".php","w");
+                fwrite($file,$contenido);
+                fclose($file);
+            }
 
             return true;
         }

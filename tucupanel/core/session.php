@@ -1,7 +1,7 @@
 <?php 
 class Session{
 
-	public function setValue($var, $value){
+	public static function setValue($var, $value){
 		$_SESSION[$var] = $value;
 	}
 
@@ -12,12 +12,18 @@ class Session{
 		return $return;
 	}
 
-	public function isAdmin(){
+	public static function isAdmin(){
 		if ($_SESSION['usertype']=='admin')
 			return true;
 		else
 			return false;
 	}
+
+    public static function iniciar($id)
+    {
+        $_SESSION['id'] = $id;
+        echo json_encode(array("status"=>"OK"));
+    }
 }
 
  ?>

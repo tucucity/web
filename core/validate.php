@@ -2,7 +2,7 @@
 
 class Validate{
 
-	public function Email($email){
+	public static function Email($email){
 		if (filter_var($email, FILTER_VALIDATE_EMAIL)){
 			return true;
 		}
@@ -12,7 +12,7 @@ class Validate{
 		} 
 	}
 
-	public function Pass($pwd1, $pwd2){
+	public static function Pass($pwd1, $pwd2){
 		if (($pwd1 == "") or ($pwd1 !== $pwd2)){
 			Session::setValue("errorPass", "<span>Las contraseñas no coinciden</span>");
 			return false;
@@ -21,7 +21,7 @@ class Validate{
 		}
 	}
 
-	public function Int($num, $min="0", $max="9999999999999999"){
+	public static function Int($num, $min="0", $max="9999999999999999"){
 		$options = array(
 		    'options' => array(
 		        'max_range' => $max, 
@@ -34,7 +34,7 @@ class Validate{
 		else return false;
 	}
 
-	public function Required($data, $fields){
+	public static function Required($data, $fields){
 		$error = 0;
 		$msj = "<p>Los siguientes campos son obligatorios: </p><ul>";
 		$field = explode(",", $fields);
