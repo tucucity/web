@@ -20,12 +20,14 @@
     <link href="{CSS}sequence.css" rel="stylesheet">
       <link rel="stylesheet" href="{CSS}bootstrap-table.min.css"/>
       <link rel="stylesheet" href="{CSS}bootstrap-table-filter.css"/>
+      <link rel="stylesheet" href="{CSS}ui-grid-stable.min.css"/>
 
       <script src="{JS}vendor/jquery"></script>
       <script src="{JS}vendor/bootstrap"></script>
       <script src="{JS}vendor/angular"></script>
+      <script src="{JS}vendor/ui-grid-stable.min"></script>
       <script type="text/javascript">
-          app = angular.module('App', [])
+          app = angular.module('App', ['ui.grid'])
                   .controller('ProductosController', function($scope,$http) {
                       $scope.Message = "Mensaje de Bienvenida. Continuemos!!!";
                   })
@@ -34,6 +36,7 @@
                       $scope.listaDeArticulos = [];
                       $http.post('{HOME}articulo/getArticulos').success(function(data)
                       {
+                          $scope.gridOptions = { data: data };
                           $scope.listaDeArticulos = data;
 
                       });

@@ -28,26 +28,29 @@
         <div id="panelNuevoItem" class="form-group" style="display:none;">AAAA</div>
         </div>
     </div>
+
     <div class="row" ng-controller="DatosTabla">
+        <div ui-grid="{ data: listaDeArticulos }" class="myGrid"></div>
+
         <table id="pepepepe">
             <thead>
             <tr>
                 <td>Id</td>
-                <td>Nombre</td><!--
+                <td>Nombre</td>
                 <td>Tipo</td>
                 <td>Precio</td>
                 <td>Empresa</td>
-                <td>Activo</td>-->
+                <td>Activo</td>
             </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="art in listaDeArticulos track by id">
+            <tr ng-repeat="art in listaDeArticulos">
                 <td>{{art.id}}</td>
-                <td>{{art.nombre}}</td><!--
+                <td>{{art.nombre}}</td>
                 <td>{{art.tipo}}</td>
                 <td>{{art.precio}}</td>
                 <td>{{art.empresa}}</td>
-                <td>{{art.activo}}</td>-->
+                <td>{{art.activo}}</td>
             </tr>
             </tbody>
         </table>
